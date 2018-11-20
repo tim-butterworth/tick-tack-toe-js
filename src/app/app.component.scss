@@ -1,0 +1,29 @@
+.container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.labelContainer {
+    font-size: 40px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.resetContainer {
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+:host {
+    width: 100%;
+    height: 100%;
+}
